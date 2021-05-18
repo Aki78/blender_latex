@@ -15,7 +15,7 @@ You first need to install LaTeX. For Ubuntu, just run the command:
 $ sudo apt-get install texlive-full
 ```
 
-for Mac OS install.
+for Mac OS install it by:
 ```
 $ brew install texlive 
 ```
