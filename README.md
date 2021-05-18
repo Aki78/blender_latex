@@ -26,5 +26,5 @@ that was unzipped.
 Once you selected it, Check the box that appears 'Add Mesh: Add Blender Latex', then the add-on should be installed.
 
 ## Usage
-Go to 'layout', and press Shift-T. A textbox will pop up, and type in your LaTeX command. 
+In Blender (version 2.92.0), go to 'layout', and press Shift-T. A textbox will pop up, and type in your LaTeX command. 
 Note that you have to type \\\ instead of \\. for exampole \\\Psi instead of \\Psi.
