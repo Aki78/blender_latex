@@ -45,12 +45,12 @@ class add_latex_object(bpy.types.Operator):
         t = self.text
         print(t)
         
-        subprocess.run(["cp", "/home/aki/.latex_blender/latex_blender_template.tex", "/home/aki/.latex_blender/template2.tex" ])
-        subprocess.run(['sed', '-i', 's/change/' + t +'/g', '/home/aki/.latex_blender/template2.tex' ])
+        subprocess.run(["cp", home+"/.latex_blender/latex_blender_template.tex",home+ "/.latex_blender/template2.tex" ])
+        subprocess.run(['sed', '-i', 's/change/' + t +'/g',home+ '/.latex_blender/template2.tex' ])
 
-        subprocess.run(["pdflatex", "-halt-on-error","-output-directory","/home/aki/.latex_blender","/home/aki/.latex_blender/template2.tex"])
-        subprocess.run(["pdftocairo", "-svg", "/home/aki/.latex_blender/template2.pdf", "/home/aki/.latex_blender/expression.svg"])
-        bpy.ops.import_curve.svg(filepath="/home/aki/.latex_blender/expression.svg")
+        subprocess.run(["pdflatex", "-halt-on-error","-output-directory",home+"/.latex_blender",home+"/.latex_blender/template2.tex"])
+        subprocess.run(["pdftocairo", "-svg", home+"/.latex_blender/template2.pdf", home+"/.latex_blender/expression.svg"])
+        bpy.ops.import_curve.svg(filepath=home+"/.latex_blender/expression.svg")
 #        bpy.data.objects["Curve"].name = t
         bpy.data.collections["expression.svg"].name = t
 #        col = bpy.data.collections.get("expression.svg")
