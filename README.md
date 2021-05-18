@@ -7,7 +7,7 @@ Adds latex obejcts (curves) in blender
 
 ## Installation
 This has only been tested on Ubuntu with blender versoin 2.92.0.
-t might work on Mac OS, and it probably won't on Windows. If you are interested in testing it pout on 
+It might work on Mac OS, and it probably won't on Windows. If you are interested in testing it out on 
 Windows or Mac OS, please contact me.
 
 You first need to install LaTeX. For Ubuntu, just run the command:
@@ -27,4 +27,4 @@ Once you selected it, Check the box that appears 'Add Mesh: Add Blender Latex', 
 
 ## Usage
 Go to 'layout', and press Shift-T. A textbox will pop up, and type in your LaTeX command. 
-Note that you have to type \\ instead of \. for exampole \\Psi instead of \psi.
+Note that you have to type \\\ instead of \\. for exampole \\\Psi instead of \\psi.
