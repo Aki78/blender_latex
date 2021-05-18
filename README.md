@@ -27,4 +27,4 @@ Once you selected it, Check the box that appears 'Add Mesh: Add Blender Latex', 
 
 ## Usage
 Go to 'layout', and press Shift-T. A textbox will pop up, and type in your LaTeX command. 
-Note that you have to type \\\ instead of \\. for exampole \\\Psi instead of \\psi.
+Note that you have to type \\\ instead of \\. for exampole \\\Psi instead of \\Psi.
