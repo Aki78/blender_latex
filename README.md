@@ -1,5 +1,6 @@
 # blender_latex
-Adds latex obejcts (curves) in blender
+Adds latex obejcts (curves) in blender.
+Once installed, simply type Shift-T.
 
 ## Table of contents
 * [Installation](#Installation)
