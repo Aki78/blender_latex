@@ -2,24 +2,29 @@
 Adds latex obejcts (curves) in blender
 
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Installation](#Installation)
+* [Usage](#Usage)
 
-## General info
-This project is simple Lorem ipsum dolor generator.
+## Installation
+This has only been tested on Ubuntu with blender versoin 2.92.0.
+t might work on Mac OS, and it probably won't on Windows. If you are interested in testing it pout on 
+Windows or Mac OS, please contact me.
 
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-
-## Setup
-To run this project, install it locally using npm:
-
+You first need to install LaTeX. For Ubuntu, just run the command:
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ sudo apt-get install texlive-full
 ```
+
+for Mac OS install.
+```
+$ brew install texlive 
+```
+
+Next, download the package from the green button on the upper right corner of this page, then 'Download ZIP'.
+Unzip the file, go to blender > Edit > Preferences > Add-ons > Install... then find and select the .py file
+that was unzipped.
+Once you selected it, Check the box that appears 'Add Mesh: Add Blender Latex', then the add-on should be installed.
+
+## Usage
+Go to 'layout', and press Shift-T. A textbox will pop up, and type in your LaTeX command. 
+Note that you have to type \\ instead of \. for exampole \\Psi instead of \psi.
