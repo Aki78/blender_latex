@@ -21,7 +21,7 @@ $ brew install texlive
 ```
 
 Next, download the package from the green button on the upper right corner of this page, then 'Download ZIP'.
-Unzip the file, go to blender > Edit > Preferences > Add-ons > Install... then find and select the .py file
+Unzip the file, go to blender > Edit > Preferences > Add-ons > Install... then find and select the addon_add_Latex_object.py file
 that was unzipped.
 Once you selected it, Check the box that appears 'Add Mesh: Add Blender Latex', then the add-on should be installed.
 
